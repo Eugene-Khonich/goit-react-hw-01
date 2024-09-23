@@ -1,0 +1,29 @@
+.table {
+  background-color: #fff;
+  color: black;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+.head {
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+}
+.headItem {
+  border: 2px solid black;
+  padding: 8px 0;
+}
+.list:nth-child(even) {
+  background-color: rgb(180, 180, 180);
+}
+.listItem {
+  border: 2px solid black;
+  padding: 8px 0;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.listItem:not(:first-child) {
+  text-align: center;
+}
+.listItem:first-child {
+  padding-left: 15%;
+}
